@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lasketaan2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double luku1 = 3.14;
+            double luku2 = 2.71;
+            // Math.Round pyöristää oikein
+            Console.WriteLine(luku1 + " pyöristettynä ylös " + Math.Ceiling(luku1));
+            Console.WriteLine(luku2 + " pyöristettynä alas " + Math.Floor(luku2));
+
+            Random r = new Random();
+            double luku = r.NextDouble();
+            Console.WriteLine("Tulos on " + Math.Floor(luku * 10 + 1));
+
+           
+
+            for (int i = 0; i < 13; i++)
+
+            {
+
+               
+                int luku3 = r.Next(1, 3);
+
+                if (luku3 == 3)
+
+                {
+                    Console.WriteLine("Veikkaus: X");
+                }
+
+                else
+                {
+                    Console.WriteLine("Veikkaus: " + luku3);
+                }
+                
+            }
+            
+
+
+        }
+    }
+}

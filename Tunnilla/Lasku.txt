@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Laske1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Anna ensimmäinen luku");
+            var num = Console.ReadLine();
+            int luku = int.Parse(num);
+
+            Console.WriteLine("Anna toinen luku");
+            var num1 = Console.ReadLine();
+            int luku1 = int.Parse(num1);
+
+            Console.WriteLine("Anna kolmas luku");
+            var num2 = Console.ReadLine();
+            int luku2 = int.Parse(num2);
+
+            double luku3;
+            luku = luku + luku1 + luku2;
+            luku3 = luku / 3.0;
+            
+            if (luku3 < 2)
+
+            {
+                Console.WriteLine("Pystyt parempaan!");
+
+            }
+
+            else
+
+            {
+                Console.WriteLine("Hienoa!");
+
+            }
+            
+            Console.WriteLine("Lukujen keskiarvo on "+ luku3);
+        }
+    }
+}

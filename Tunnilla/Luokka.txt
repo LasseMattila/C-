@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Luokat
+{
+    class Class1
+    {
+        string teksti = "Moi";
+        public void Tervehdi()
+        {
+
+            Console.WriteLine("Moi!");
+
+        }
+
+         public string HaeTervehdysTeksti()
+
+        {
+
+            return "Moro!";
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Luokat
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 muuttuja = new Class1();
+            muuttuja.Tervehdi();
+            Console.WriteLine(muuttuja.HaeTervehdysTeksti());
+        }
+    }
+}

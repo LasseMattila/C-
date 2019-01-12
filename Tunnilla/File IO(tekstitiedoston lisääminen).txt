@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _321
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //C# pikaopas / File IO
+
+            StreamReader reader = File.OpenText("c:\\Temp\\tiedosto.csv");
+            string line = reader.ReadLine();
+            while (line != null)
+            {
+                Console.WriteLine(line);
+                line = reader.ReadLine();
+            }
+            reader.Close();
+
+        }
+    }
+}

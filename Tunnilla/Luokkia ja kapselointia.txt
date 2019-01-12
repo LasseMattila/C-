@@ -1,0 +1,202 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Persoona
+{
+    class Person
+    {
+        string Name;
+        int Age;
+
+        public Person(string name, int age)
+
+        {
+
+            Name = name;
+            Age = age;
+
+        }
+
+        public Person()
+        {
+
+            Name = "";
+            Age = 0;
+
+        }
+
+        public string GetName()
+        {
+
+            return Name;
+
+        }
+
+        public void SetName(string name)
+
+        {
+
+            Name = name;
+
+        }
+
+        public int GetAge()
+        {
+
+            return Age;
+
+        }
+
+        public void SetAge(int newAge)
+        {
+
+            Age = newAge;
+
+        }
+
+        public string HaeTekstinä()
+
+        {
+
+            return $"Hänen nimensä on {Name} ja hän on {Age} vuotias";
+
+        }
+
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Persoona
+{
+    class Elokuva
+    {
+
+        string Genre;
+        int Määrä;
+        
+
+        public Elokuva(string genre, int määrä)
+        {
+
+            Genre = genre;
+            Määrä = määrä;
+
+        }
+
+        public Elokuva()
+
+        {
+
+            Genre = "";
+            Määrä = 0;
+
+        }
+
+        public string GetGenre()
+
+        {
+
+            return Genre;
+
+        }
+
+        public void SetGenre(string genre)
+
+        {
+
+            Genre = genre;
+
+        }
+
+        public int GetMäärä()
+
+        {
+
+            return Määrä;
+
+        }
+
+        public void SetMäärä(int uusiMäärä)
+
+        {
+
+            Määrä = uusiMäärä;
+
+        }
+
+
+        public string HaeTekstinä()
+
+        {
+
+            return $"Meillä on {Määrä} elokuvaa {Genre} genressä";
+        
+
+        }
+
+    }
+}
+using Henkilötiedot;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Persoona
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Henkilö henk = new Henkilö("Otto", 3);
+            Console.WriteLine(henk.ToString());
+
+            Person person = new Person("Toni", 39);
+            //person.SetName("Toni");
+            //person.SetAge(39);
+           
+            Person toinen = new Person("Jari", 56);
+            //toinen.SetName("Jari");
+            //toinen.SetAge(56);
+
+            Elokuva kauhu = new Elokuva("Kauhu", 10);
+
+            Elokuva komedia = new Elokuva("Komedia", 12);
+
+            Elokuva trilleri = new Elokuva("Trilleri", 8);
+
+            Elokuva draama = new Elokuva("Draama", 14);
+            
+            
+
+            Tulosta(person);
+            Tulosta(toinen);
+            Tulosta(kauhu);
+            Tulosta(komedia);
+            Tulosta(trilleri);
+            Tulosta(draama);
+
+            
+
+        }
+
+        private static void Tulosta(Elokuva elokuva)
+        {
+            Console.WriteLine(elokuva.HaeTekstinä());
+        }
+
+        private static void Tulosta(Person person)
+        {
+            Console.WriteLine(person.HaeTekstinä());
+        }
+    }
+}

@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EsimLuokat
+{
+    class Kokonaisuus
+    {
+        Osa osa;
+        Osa varaosa;
+
+
+        public void LisääVaraosa(Osa osa)
+        {
+
+            this.varaosa = osa;
+
+        }
+
+        public void LisääOsa(Osa osa)
+        {
+
+            this.osa = osa;
+
+        }
+        
+        public string Tulosta()
+        {
+
+            return "K: " + osa.Tulosta()+"V: "+varaosa.Tulosta();
+
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EsimLuokat
+{
+    class Osa
+    {
+        int luku;
+
+        public int Luku { get => luku; set => luku = value; }
+
+        public string Tulosta()
+        {
+            return "0: "+Luku.ToString();
+
+
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EsimLuokat
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Kokonaisuus kok =  new Kokonaisuus();
+            Osa osa = new Osa();
+            osa.Luku = 42;
+
+            Osa vOsa = new Osa();
+            vOsa.Luku = 21;
+            kok.LisääOsa(osa);
+            kok.LisääVaraosa(vOsa);
+
+            
+            Console.WriteLine(osa.Tulosta());
+            Console.WriteLine(vOsa.Tulosta());
+            Console.WriteLine(kok.Tulosta());
+
+
+
+        }
+    }
+}

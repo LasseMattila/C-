@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tervehtijä
+{
+    class Tervehtijä
+    {
+        string tervehdys;
+
+
+        public void AsetaTervehdys(string uusiTervehdys)
+        {
+
+
+
+        }
+
+        public void    Tervehdi()
+        {
+
+
+
+
+        }
+
+        public void Tervehdi(string omaTervehdys)
+
+        {
+
+            
+
+        }
+
+        public string HaeTervehdys()
+        {
+
+            
+
+        }
+
+
+
+        
+
+
+
+
+
+    }
+
+
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tervehtijä
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}

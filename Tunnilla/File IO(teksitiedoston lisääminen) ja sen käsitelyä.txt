@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _321
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //C# pikaopas / File IO
+
+            StreamReader reader = File.OpenText("c:\\Temp\\tiedosto.csv");
+            string line = reader.ReadLine();
+            while (line != null)
+            {
+                
+                int index = line.IndexOf(';', 0);
+
+                string sarake1 = line.Substring(0, index);
+                Console.WriteLine(sarake1);
+
+                int index2 = line.IndexOf(';', index+1);
+
+                string sarake2 = line.Substring(index+1, index2-index-1);
+                Console.WriteLine(sarake2);
+               
+                Console.WriteLine(line.Substring(index2+1));
+
+                line = reader.ReadLine();
+
+            }
+            reader.Close();
+
+        }
+    }
+}

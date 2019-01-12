@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _12345
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a, b, hypo;
+            Console.Write("Kateetti a) : ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Kateetti b) : ");
+            b = Convert.ToDouble(Console.ReadLine());
+            hypo = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            Console.WriteLine("Hypotenuusa on : " + hypo);
+            Console.ReadKey();
+
+            LaskeSini();
+        }
+
+        static void LaskeSini()
+        {
+
+            for (int i = 0; i < 20; i++)
+            {
+                for (int j = 0; j < 5+10*Math.Sin(i/3.0); j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }   
+
+            
+
+
+            
+
+        }
+    }
+
+}
