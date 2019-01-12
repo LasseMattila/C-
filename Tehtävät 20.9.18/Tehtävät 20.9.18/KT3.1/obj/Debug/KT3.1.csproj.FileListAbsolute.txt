@@ -1,0 +1,7 @@
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\obj\Debug\KT3.1.csprojAssemblyReference.cache
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\obj\Debug\KT3.1.csproj.CoreCompileInputs.cache
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\bin\Debug\KT3.1.exe.config
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\bin\Debug\KT3.1.exe
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\bin\Debug\KT3.1.pdb
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\obj\Debug\KT3.1.exe
+C:\Users\Lasse Mattila\source\repos\KT3.1\KT3.1\obj\Debug\KT3.1.pdb
