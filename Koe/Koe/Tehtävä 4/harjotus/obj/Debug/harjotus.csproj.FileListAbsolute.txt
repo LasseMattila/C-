@@ -1,0 +1,7 @@
+C:\Users\it16\source\repos\harjotus\harjotus\bin\Debug\harjotus.exe.config
+C:\Users\it16\source\repos\harjotus\harjotus\bin\Debug\harjotus.exe
+C:\Users\it16\source\repos\harjotus\harjotus\bin\Debug\harjotus.pdb
+C:\Users\it16\source\repos\harjotus\harjotus\obj\Debug\harjotus.csprojAssemblyReference.cache
+C:\Users\it16\source\repos\harjotus\harjotus\obj\Debug\harjotus.csproj.CoreCompileInputs.cache
+C:\Users\it16\source\repos\harjotus\harjotus\obj\Debug\harjotus.exe
+C:\Users\it16\source\repos\harjotus\harjotus\obj\Debug\harjotus.pdb

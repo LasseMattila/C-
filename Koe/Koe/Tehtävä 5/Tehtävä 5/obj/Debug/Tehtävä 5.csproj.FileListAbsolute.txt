@@ -1,0 +1,7 @@
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\bin\Debug\Tehtävä 5.exe.config
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\bin\Debug\Tehtävä 5.exe
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\bin\Debug\Tehtävä 5.pdb
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\obj\Debug\Tehtävä 5.csprojAssemblyReference.cache
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\obj\Debug\Tehtävä 5.csproj.CoreCompileInputs.cache
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\obj\Debug\Tehtävä 5.exe
+C:\Users\it16\source\repos\Tehtävä 5\Tehtävä 5\obj\Debug\Tehtävä 5.pdb
