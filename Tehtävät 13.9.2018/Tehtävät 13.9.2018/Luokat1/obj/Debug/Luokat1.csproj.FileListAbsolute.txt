@@ -1,0 +1,13 @@
+C:\Users\it16\source\repos\Luokat1\Luokat1\bin\Debug\Luokat1.exe.config
+C:\Users\it16\source\repos\Luokat1\Luokat1\bin\Debug\Luokat1.exe
+C:\Users\it16\source\repos\Luokat1\Luokat1\bin\Debug\Luokat1.pdb
+C:\Users\it16\source\repos\Luokat1\Luokat1\obj\Debug\Luokat1.csproj.CoreCompileInputs.cache
+C:\Users\it16\source\repos\Luokat1\Luokat1\obj\Debug\Luokat1.exe
+C:\Users\it16\source\repos\Luokat1\Luokat1\obj\Debug\Luokat1.pdb
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\bin\Debug\Luokat1.exe.config
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\bin\Debug\Luokat1.exe
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\bin\Debug\Luokat1.pdb
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\obj\Debug\Luokat1.csprojAssemblyReference.cache
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\obj\Debug\Luokat1.csproj.CoreCompileInputs.cache
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\obj\Debug\Luokat1.exe
+C:\Users\Lasse Mattila\AppData\Local\Temp\projektit04_060918-1\Luokat1\Luokat1\obj\Debug\Luokat1.pdb
